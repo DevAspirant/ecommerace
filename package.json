@@ -1,0 +1,23 @@
+{
+  "name": "ecommerace",
+  "version": "1.0.0",
+  "description": "Design ecommerace platform from scratch",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAspirant/ecommerace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAspirant/ecommerace/issues"
+  },
+  "homepage": "https://github.com/DevAspirant/ecommerace#readme"
+}
