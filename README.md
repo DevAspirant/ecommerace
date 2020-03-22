@@ -15,3 +15,4 @@
 * uninstall node.js [https://www.positronx.io/how-to-uninstall-node-js-and-npm-from-macos/] <strong>[done]</strong>
 * install old node [https://nodejs.org/dist/latest-v10.x/] <strong>[done]</strong>
 * test the gulp <strong>[done]</strong>
+* install glup connect to refresh the page auto by command <code>npm install gulp-connect</code>
