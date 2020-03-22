@@ -16,3 +16,5 @@
 * install old node [https://nodejs.org/dist/latest-v10.x/] <strong>[done]</strong>
 * test the gulp <strong>[done]</strong>
 * install glup connect to refresh the page auto by command <code>npm install gulp-connect</code>
+* adding the automation for gulp &#9989;
+* adding Bootstrap 4 &#9989;
