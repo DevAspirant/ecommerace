@@ -4,7 +4,8 @@
   "description": "Design ecommerace platform from scratch",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0"
   },
   "devDependencies": {},
   "scripts": {
