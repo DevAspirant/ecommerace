@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
+var flipper = require('gulp-css-flipper');
+var merge = require('merge-stream');
 
 gulp.task('default',['build','connect','watch']); // run 
 
@@ -24,14 +26,17 @@ gulp.task("html", function(){
 });
 
 gulp.task("css", function(){
-    return gulp.src("src/css/*.css")
-    .pipe(gulp.dest("build"))
+    var flip = gulp.src(['src/css/*.css','!src/css/style.css']).pipe(flipper());
+    var noFlip = gulp.src('src/css/style.css');
+    
+    return merge(flip,noFlip)/* for RTL into bootstrap */
+    .pipe(gulp.dest("build/css"))
     .pipe(connect.reload() /* connect to the sever */ );
 });
 
 gulp.task("js", function(){
     return gulp.src("src/js/*.js")
-    .pipe(gulp.dest("build"))
+    .pipe(gulp.dest("build/js"))
     .pipe(connect.reload() /* connect to the sever */ 
     );
 });
