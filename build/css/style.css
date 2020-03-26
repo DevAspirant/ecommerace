@@ -68,3 +68,16 @@
     background-color: #C2101E;
     border-color: #C2101E;
 }
+
+.custom-navbar .navbar-nav > li /* معناته انه بس اللستة الموجودة في navbar-nav will be reflected */{
+    margin: 0;
+}
+.custom-navbar .navbar-nav li a.nav-link{
+    color: #555555;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.custom-navbar .navbar-nav li a.nav-link:hover {
+    color: black;
+}
