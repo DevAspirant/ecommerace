@@ -1,4 +1,70 @@
-h1 {
-    color: black;
-    float: left;
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+* {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 14px;
+    columns: #555555;
+    line-height: 1.42857143; /* ارتفاع السطر */
+}
+.custom-navbar {
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;;
+}
+
+.categories .nav-link {
+    padding: 6px 13px 6px;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.custom-form-control,.custom-btn {
+    color: #868686;
+    border: 1px solid #EBEBEB;
+    box-shadow: none; /* to hide the shadow */
+    border-radius:2px;
+    font-size: 14px;
+    padding: 7px 13px;
+    transition: all .3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+}
+
+.custom-dropdown-menu {
+    box-shadow: 0 2px 5px 0 #EBEBEB;
+    border-radius: 2px;
+    color:#777;
+}
+
+.custom-dropdown-menu .checkbox{
+    display: flex;
+    margin: 0 5px;
+}
+
+.custom-dropdown-menu .checkbox label input{
+    margin-left: 5px;
+}
+
+.custom-navbar .custom-btn-primary /* ? */{
+    color: white;
+    background-color: #FF3956;
+    border-color: #FF3956;
+    padding: 5px 20px 6px 20px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.custom-navbar .custom-btn-primary:hover,
+.custom-navbar .custom-btn-primary:active,
+.custom-navbar .custom-btn-primary:focus,
+.custom-navbar .custom-btn-primary:active:focus,
+.custom-navbar .custom-btn-primary:active:hover {
+    background-color: #C2101E;
+    border-color: #C2101E;
 }

@@ -21,4 +21,8 @@
 * create the 1st page &#9989;
 * install <code> npm install gulp-css-flipper </code>configure the RTL for Bootstrap 4 
 * install merage for merge flip & noFlip <code>npm install merge-stream </code>
+* install the Fonts 
+* style the search bar 
+* style the dropdown list 
+* style the search button 
 
