@@ -5,6 +5,7 @@
         <title>متجر عربي </title>
         <link rel="stylesheet" href="./css/style.css">
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+        <script src="https://kit.fontawesome.com/9341040589.js" crossorigin="anonymous"></script>
         </head>
     <body>
     <div class="container-fluid">
@@ -52,9 +53,9 @@
                     <li class="nav-item active">
                     <a class="nav-link" href="#"> الصفحة الرئيسية </a> 
                     </li><!-- END OF nav-item 1 -->
-                   <li class="nav-item">
+                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"> اقسام المتجر </a> 
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu custom-dropdown-menu">
                         <li><a class="dropdown-item" href="#">رجالي</a></li>
                         <li><a class="dropdown-item" href="#">نسائي</a></li>
                         <li><a class="dropdown-item" href="#">اطفال</a></li>
@@ -66,11 +67,15 @@
                    <li class="nav-item">
                     <a class="nav-link" href="contact.html"> تواصل معنا </a> 
                     </li><!-- END OF nav-item 4 -->
+                    <li>
+                        <a href="checkout.html" id="btn-shopping-cart" class="btn custom-btn btn-icon" title="عربة الشراء" data-toggle="tooltip" data-placement="bottom">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a> 
+                    </li>
                 </ul><!-- END of list of navigation-->
-            </nav><!-- END of nav -->
-            </div>
+            </div><!-- END of nav -->
+            </nav><!-- -->
         </div><!-- END of row -->
-        
     </div><!-- container-fluid END -->
        <script src="./js/script.js"></script>
        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

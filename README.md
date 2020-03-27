@@ -25,4 +25,5 @@
 * style the search bar 
 * style the dropdown list 
 * style the search button 
+* adding shopping cart icon
 
