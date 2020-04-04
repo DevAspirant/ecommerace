@@ -131,3 +131,8 @@
     color: black;
     background-color: #bfbfbf;
 }
+
+#carousel-featured {
+    background-color: #F7F8F3;
+    height: 400px;
+}
